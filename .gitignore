@@ -1,0 +1,11 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+
+# 環境変数ファイル（機密情報を含むため Git 管理対象外）
+.env
+
+# OS 生成ファイル
+.DS_Store
+Thumbs.db

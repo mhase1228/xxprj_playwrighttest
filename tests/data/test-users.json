@@ -1,0 +1,16 @@
+{
+    "validUser": {
+        "email": "testuser@example.com",
+        "password": "Password1!",
+        "displayName": "テストユーザー"
+    },
+    "adminUser": {
+        "email": "admin@example.com",
+        "password": "AdminPass1!",
+        "displayName": "管理者"
+    },
+    "invalidCredentials": {
+        "email": "testuser@example.com",
+        "password": "wrong-password"
+    }
+}

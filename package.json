@@ -1,0 +1,22 @@
+{
+    "name": "playwright-auto-test",
+    "version": "1.0.0",
+    "description": "Webシステム向け自動テストプロジェクト（Playwright + TypeScript）",
+    "scripts": {
+        "test": "playwright test",
+        "test:regression": "playwright test tests/specs/regression/",
+        "test:integration": "playwright test tests/specs/integration/",
+        "test:headed": "playwright test --headed",
+        "test:ui": "playwright test --ui",
+        "test:debug": "playwright test --debug",
+        "report": "playwright show-report",
+        "lint": "eslint 'tests/**/*.ts'",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@playwright/test": "^1.50.0",
+        "@types/node": "^22.0.0",
+        "dotenv": "^16.0.0",
+        "typescript": "^5.0.0"
+    }
+}
